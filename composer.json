@@ -8,11 +8,17 @@
     "illuminate/database": "~5.1"
   },
   "require-dev": {
-    "phpunit/phpunit": "~5.0"
+    "friendsofphp/php-cs-fixer": "^1.11",
+    "mockery/mockery": "^0.9.5",
+    "orchestra/database": "~3.4.0",
+    "phpunit/phpunit": "~5.0",
+    "orchestra/testbench": "~3.0",
+    "graham-campbell/testbench": "^4.0"
   },
   "autoload": {
     "psr-4": {
-      "CodePress\\CodeCategory\\": "src/CodeCategory/"
+      "CodePress\\CodeCategory\\": "src/CodeCategory/",
+      "CodePress\\Tests\\": "tests/"
     }
   }
 }
