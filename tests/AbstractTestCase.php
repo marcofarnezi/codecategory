@@ -1,6 +1,7 @@
 <?php
 namespace CodePress\Tests;
 
+use Cviebrock\EloquentSluggable\ServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 abstract class AbstractTestCase extends TestCase
@@ -10,6 +11,13 @@ abstract class AbstractTestCase extends TestCase
         $this->artisan('migrate', [
             '--path' => '../../../../src/resources/migrations/'
         ]);
+    }
+
+    public function getPackageProviders($app)
+    {
+        return [
+            ServiceProvider::class
+        ];
     }
 
     /**

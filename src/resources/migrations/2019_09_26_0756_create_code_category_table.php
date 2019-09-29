@@ -12,6 +12,7 @@ class CreateCodeCategoryTable extends Migration
             $table->integer('parent_id')->nullable(true)->unsigned();
             $table->foreign('parent_id')->references('id')->on('codepress_category');
             $table->string('name');
+            $table->string('slug');
             $table->boolean('active')->default(false);
             $table->timestamps();
         });
