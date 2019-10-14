@@ -2,7 +2,7 @@
 namespace CodePress\Tests\CodeCategory\Models;
 
 use CodePress\CodeCategory\Models\Category;
-use CodePress\Tests\AbstractTestCase;
+use CodePress\CodeCategory\Tests\AbstractTestCase;
 use Illuminate\Support\MessageBag;
 use Illuminate\Validation\Validator;
 

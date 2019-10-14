@@ -20,7 +20,9 @@
   "autoload": {
     "psr-4": {
       "CodePress\\CodeCategory\\": "src/CodeCategory/",
-      "CodePress\\CodeCategory\\Tests\\": "tests/"
+      "CodePress\\CodeCategory\\Tests\\": "tests/",
+      "CodePress\\CodeDatabase\\": "../codedatabase/src/CodeDatabase/",
+      "CodePress\\CodeDatabase\\Tests\\": "../codedatabase/tests/"
     }
   }
 }

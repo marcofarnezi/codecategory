@@ -1,5 +1,5 @@
 <?php
-namespace CodePress\Tests;
+namespace CodePress\CodeCategory\Tests;
 
 use Cviebrock\EloquentSluggable\ServiceProvider;
 use Orchestra\Testbench\TestCase;
